@@ -1,5 +1,6 @@
 const input = document.querySelector('#input');
 const button = document.querySelector('#button');
+const intro = document.querySelector('.intro');
 const content = document.querySelector('#content');
 const picTitle = document.querySelector('#title');
 const picCopyright = document.querySelector('#copyright');
@@ -20,6 +21,7 @@ function run() {
     return false;
   }
   
+  intro.style.display = 'none'
   content.style.display = 'block';
 
   fetch(`https://api.nasa.gov/planetary/apod?api_key=XKjOkdsnFQ85aMXgVFrg5TWWHAwoYr4ODuE6azOT&date=${date}`)
