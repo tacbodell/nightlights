@@ -6,9 +6,6 @@ An API-integrated project which pulls from NASA's astronomical API to pull a pic
 
 **Link to project:** https://tacbodell.github.io/nightlights/
 
-
-![alt tag](http://placecorgi.com/1200/650)
-
 ## How It's Made:
 
 **Tech used:** HTML, CSS, JavaScript
